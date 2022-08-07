@@ -30,6 +30,14 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
+function scrollHeader() {
+    const header = document.getElementById("header");
+    // WHen the scroll point is greater than 80 viewport height, changes color
+    if (this.scrollY >= 80) header.classList.add("scroll-header");
+    else header.classList.remove("scroll-header");
+}
+
+window.addEventListener("scroll", scrollHeader);
 
 /*=============== QUESTIONS ACCORDION ===============*/
 

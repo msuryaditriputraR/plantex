@@ -249,7 +249,9 @@ the website, in dark theme
 }
 
 /* Change background header */
-
+.scroll-header {
+  box-shadow: 0 1px 4px hsla(var(--hue), 4%, 15%, .1);
+}
 
 /* Active link */
 
