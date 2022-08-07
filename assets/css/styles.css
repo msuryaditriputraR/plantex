@@ -817,7 +817,15 @@ the website, in dark theme
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background: hsl(var(--hue), 4%, 53%);
+}
 
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--hue), 4%, 29%);
+  border-radius: .5rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
